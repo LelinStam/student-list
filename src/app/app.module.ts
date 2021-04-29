@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { AddStudentComponent } from './add-student/add-student.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { StudentDataComponent } from './student-data/student-data.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     AddStudentComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    StudentDataComponent
   ],
   imports: [
     BrowserModule,
