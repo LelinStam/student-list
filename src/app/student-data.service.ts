@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 export interface Student {
-  namee: string;
+  name: string;
   degreeProgram: string;
 }
 @Injectable({
@@ -18,7 +18,8 @@ export class StudentDataService {
 
   addStudent(s: Student){
     return this.students = [
-      ...this.students, s
+      ...this.students
+      , s
     ]
   }
 }
